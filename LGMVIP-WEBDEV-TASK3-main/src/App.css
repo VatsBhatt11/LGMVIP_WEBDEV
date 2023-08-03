@@ -1,0 +1,116 @@
+.description ul li{
+  list-style-type: none;
+}
+.description ul{
+  padding: 0%;
+  margin: 0%;
+}
+.description{
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.myCard{
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin:auto;
+  margin-bottom: 4%;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 500% 500%;
+  animation: gradient 15s ease infinite;
+  padding: auto;
+}
+#system{
+  display: flex;
+  flex-direction: column;
+  background-color: tomato; 
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.enrollForm{
+  width: 70%;
+  margin: auto;
+  padding: 3%;
+}
+input[type=text]{
+  margin-right: 10%;
+width: 50%;
+}
+input[type=email]{
+  width: 50%;
+  margin-right: 10%;
+  }
+.label{
+    display: inline-block;
+    width: 12%;
+  }
+.card-Div{
+  width: auto;
+}
+.image img{
+  width: 60%;
+  float: right;
+  margin: 8%;
+}
+.enrolled{
+  text-align: center;
+  /* background-color: red; */
+  color: white;
+  padding: 2%;
+}
+
+body{
+  color: black;
+  font-weight: 700;
+}
+input{
+  padding: 1%;
+  border-radius: 1em;
+}
+form label span{
+  visibility: hidden;
+}
+label{
+  font-size: large;
+}
+button{
+  font-size: large;
+  padding: 1% 12%;
+  margin-top: 5%;
+  margin-right: 1em;
+  background-color: rgb(128, 247, 128);
+  border-radius: 100px;
+}
+input{
+  margin: 1%;
+}
+.clear{
+  background-color:rgb(253, 92, 92);
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 4s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
